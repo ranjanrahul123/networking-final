@@ -1,0 +1,40 @@
+
+table{
+  border-collapse:separate;;
+  
+    border-radius:13px;
+    -moz-border-radius:13px;
+  width:100%;
+   
+}
+
+td,th{
+ border-radius: 13px;
+
+padding:15px;
+text-align:center;
+
+}
+tr,td{
+ border-radius: 13px;
+}
+#k01{
+color:blue;
+
+}
+tr:nth-child(even) {
+  background-color: #C0C0C0;
+  border-radius: 13px;
+}
+tr: nth-child(odd)
+{
+  border-radius: 13px;
+}
+th:nth-child(even) {
+  background-color: orange;
+
+}
+th:nth-child(odd) {
+background-color: orange;
+
+}
